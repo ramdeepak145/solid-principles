@@ -1,7 +1,7 @@
-package com.solid;
+package com.solidprinciples;
 
 public interface UserOps {
-    boolean login(Userdetails data);
-    boolean register(Userdetails data);
+    boolean login(UserDetails data);
+    boolean register(UserDetails data);
 }
 

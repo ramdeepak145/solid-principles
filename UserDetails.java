@@ -1,16 +1,16 @@
-package com.solid;
+package com.solidprinciples;
 
-public class Userdetails{
+public class UserDetails{
     private String email,password,user_name,phonenumber;
 
-    public Userdetails(String email,  String user_name,String password,String phonenumber) {
+    public UserDetails(String email,  String user_name,String password,String phonenumber) {
         this.email = email;
         this.password = password;
         this.user_name = user_name;
         this.phonenumber=phonenumber;
     }
 
-    public Userdetails( String user_name,String password) {
+    public UserDetails( String user_name,String password) {
         this.password = password;
         this.user_name = user_name;
     }

@@ -1,19 +1,19 @@
-package com.solid;
+package com.solidprinciples;
 
-public class FiveYearSubscription extends Subscriptionplans{
+public class FiveYearSubscription extends SubscriptionPlans{
 
 
-    public FiveYearSubscription(int pack_id, String pack_details) {
-        super(pack_id, pack_details);
-    }
-
-    public void fiveyearsubscriptiondeatils()
+    public FiveYearSubscription(int subscriptionId, String subscriptionDetails)
     {
-        System.out.println("this is a amazon five year plan");
+        super(subscriptionId, subscriptionDetails);
     }
-    public int pack_price()
+
+    public int discount()
+    {
+        return 10;
+    }
+    public int getsubscriptionPrice()
     {
         return 15000;
     }
-
 }

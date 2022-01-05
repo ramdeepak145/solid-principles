@@ -1,17 +1,13 @@
-package com.solid;
+package com.solidprinciples;
 
-public class OneYearSubscription extends Subscriptionplans{
+public class OneYearSubscription extends SubscriptionPlans{
 
-    public OneYearSubscription(int pack_id, String pack_details) {
-        super(pack_id, pack_details);
-    }
-
-    public void oneyearsubscriptiondetails()
+    public OneYearSubscription(int subscriptionId, String subscriptionDetails)
     {
-        System.out.println("this is a Amazon one year plan");
+        super(subscriptionId, subscriptionDetails);
     }
 
-    public int pack_price()
+    public int getsubscriptionPrice()
     {
         return 10000;
     }

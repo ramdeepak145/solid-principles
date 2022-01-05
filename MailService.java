@@ -1,9 +1,10 @@
-package com.solid;
+package com.solidprinciples;
 
 public class MailService implements Email{
 
     @Override
-    public void sendmail() {
+    public void sendMail()
+    {
         System.out.println("sending mail from user");
     }
 }

@@ -1,14 +1,13 @@
-package com.solid;
+package com.solidprinciples;
 
 public class AmazonCustomer {
-    String cust_name;
-    public void setcustname(String newname)
+    String custName;
+    public void setCustName(String newName)
     {
-        this.cust_name=newname;
+        this.custName=newName;
     }
-    public String getcustname()
+    public String getCustName()
     {
-        return cust_name;
+        return custName;
     }
-
 }

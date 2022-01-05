@@ -1,11 +1,11 @@
-package com.solid;
+package com.solidprinciples;
 import java.util.ArrayList;
 public class User implements UserOps {
 
-    ArrayList<Userdetails> list=new ArrayList<>();
+    ArrayList<UserDetails> list=new ArrayList<>();
     @Override
-    public boolean login(Userdetails data) {
-        // Login details fetching from the database checking they are valid or not
+    public boolean login(UserDetails data) {
+
         if(data.getUsername().equals("ram") && data.getPassword().equals("1234")){
             return true;
         }else {
@@ -14,7 +14,7 @@ public class User implements UserOps {
     }
 
     @Override
-    public boolean register(Userdetails data) {
+    public boolean register(UserDetails data) {
         // if (email is valid) then storing into DB
         list.add(data);
         return true;

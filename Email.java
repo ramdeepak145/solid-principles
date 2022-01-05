@@ -1,6 +1,6 @@
-package com.solid;
+package com.solidprinciples;
 
 public interface Email
 {
-    public void sendmail();
+    public void sendMail();
 }

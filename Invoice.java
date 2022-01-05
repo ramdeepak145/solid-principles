@@ -1,4 +1,4 @@
-package com.solid;
+package com.solidprinciples;
 
 import java.util.Random;
 
@@ -9,7 +9,7 @@ public class Invoice{
     {
         this.order=order;
     }
-    public Integer Bill()
+    public Integer bill()
     {
         int total= ran.nextInt(1000) ;
         return total;

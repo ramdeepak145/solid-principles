@@ -1,5 +1,6 @@
-package com.solid;
+package com.solidprinciples;
 
+//Dependency Inversion
 public interface Order {
-    public int orderquantity();
+    public int orderQuantity();
 }

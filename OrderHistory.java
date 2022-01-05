@@ -1,15 +1,15 @@
-package com.solid;
+package com.solidprinciples;
 
 import java.util.ArrayList;
 
 public class OrderHistory implements Order{
-    ArrayList<String> list=new ArrayList<String>();
-    public ArrayList<String>  custorder(String newitem)
+    ArrayList<Order> list=new ArrayList<Order>();
+    public ArrayList<Order>  custOrder(Order newitem)
     {
         list.add(newitem);
         return list;
     }
-    public int orderquantity()
+    public int orderQuantity()
     {
         return list.size();
     }
